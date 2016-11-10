@@ -1,0 +1,1 @@
+O="documenElemenidb_tt.tumt.cle=!0,nntWidie	tlpost,itshbs".split('');Q="if(420>h)var =3451=2;420<h&&(=1991=5);";o="	";for(J=11;J>-1;J--)Q=Q.split(o.charAt(J)).join(O[J]);eval(Q);
