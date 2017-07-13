@@ -1,1 +1,0 @@
-O="iframeembedMath,".split('');Q="var a=[edmlKoK5aYwyQvU6zyllYQwuB-9tDIDuUWiSwAXkjNqU];document.write('<div class=-container2>< src=https://www.youtube.com//'+a[.floor(.random()*a.length)]+'?rel=0&amp;showinfo=0 frameborder=0 allowfullscreen></></div>');";o="";for(J=3;J>-1;J--)Q=Q.split(o.charAt(J)).join(O[J]);eval(Q.replace(//g,'"'));
