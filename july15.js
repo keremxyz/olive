@@ -1,2 +1,0 @@
-var a="edmlKoK5aYw wuB-9tDIDuU yQvU6zyllYQ WiSwAXkjNqU".split(" ");
-document.write('<div class="embed-container2"><iframe src="https://www.youtube.com/embed/'+a[Math.floor(Math.random()*a.length)]+'?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe></div>');
