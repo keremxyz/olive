@@ -1,1 +1,0 @@
-O="documenElemenidb_tt.tt.clentWidtle=!ithhumbs=,i0".split('');Q="if(420>	)var 345;420<	&&(199);";o="	";for(J=9;J>-1;J--)Q=Q.split(o.charAt(J)).join(O[J]);eval(Q);
