@@ -1,0 +1,5 @@
+function idbgrid2(a){for(var t=a.feed.entry||[],e=['<div class="recent-gallery">'],i=0;i<t.length;++i){for(var l=t[i],r=l.title.$t,n=l.media$thumbnail?l.media$thumbnail.url:"https://2.bp.blogspot.com/-3Ize8H9_3Fg/WRCZUreX5RI/AAAAAAAAHiM/rHsS-s45J74j00JJfHiLeWIl-IcgxSrugCLcB/s350/kerem-xyz-logos.jpg",s=n.replace("s72-c","s"+idb_thumbs+""),h=l.link||[],c=0;c<h.length&&"alternate"!=h[c].rel;++c);var d=h[c].href.replace(/^http:\/\//i, 'https://'),m='<img class="stretch" src="'+s+'" width="'+idb_thumbs+'" height="'+idb_thumbs+'" alt="'+r+'"/>',p=idb_title?'<span class="ptitle">'+r+"</span>":"",g='<a href="'+d+'#icerik" target="_blank" title="'+r+'">'+m+p+"</a>";e.push('<div class="gallerytem">',g,"</div>")}e.push("</div>"),document.write(e.join(""))}
+
+if (document.documentElement.clientWidth < 420) {   var idb_thumbs = 300; var idb_title = true; var numposts1 = 3;}
+
+if (document.documentElement.clientWidth > 420) {   var idb_thumbs = 260; var idb_title = true; var numposts1 = 4;}
